@@ -1,0 +1,30 @@
+ul {
+  background-color: #ffffff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+li { 
+  /* float: left; */
+  display: inline-block;
+}
+li a {
+  display: block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+li a.current {
+  background-color: black;
+  color: white;
+}
+li a:hover:not(.current) {
+  background-color: white;
+  color: gray;
+}
+

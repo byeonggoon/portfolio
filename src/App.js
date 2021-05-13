@@ -11,7 +11,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/pagetest" component={IntroPage} />
+                <Route exact path="/portfolio" component={IntroPage} />
                 <Route exact path="/main" component={MainPage} />
                 <Route exact path="/Web" component={WebPage} />
                 <Route exact path="/Block" component={BlockPage} />

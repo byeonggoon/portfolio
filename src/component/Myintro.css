@@ -55,11 +55,11 @@
   /* //////////////////////이미지사진/////////////////////// */
 
 .profileImg{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     border-radius: 70%;
     overflow: hidden;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -68,8 +68,8 @@
   }
 
   .profileImg-Img{
-    width: 100%;
-    height:100%;
+    width: 120%;
+    height:120%;
     object-fit:cover;
     
 }
@@ -80,3 +80,175 @@
   .detailcontent{
       display: inline-block;
   }
+
+  /* ===================언어 선호도============= */
+  .progress1{
+    position: relative;
+    height: 15px;
+    width: 10rem;
+    border: 2px solid #f4a261;
+    border-radius: 15px;
+}
+.progress1 .color1{
+    position: absolute;
+    background-color: red;
+    width: 0px;
+    height: 15px;
+    border-radius: 15px;
+    animation: progres 3s infinite linear;    
+}
+
+
+.progress2{
+  position: relative;
+  height: 15px;
+  width: 10rem;
+  border: 2px solid #f4a261;
+  border-radius: 15px;
+}
+.progress2 .color2{
+  position: absolute;
+  background-color: blue;
+  width: 0px;
+  height: 15px;
+  border-radius: 15px;
+  animation: progres2 3s infinite linear;    
+}
+
+
+.progress3{
+  position: relative;
+  height: 15px;
+  width: 10rem;
+  border: 2px solid #f4a261;
+  border-radius: 15px;
+}
+.progress3 .color3{
+  position: absolute;
+  background-color:orange;
+  width: 0px;
+  height: 15px;
+  border-radius: 15px;
+  animation: progres3 3s infinite linear;    
+}
+
+.progress4{
+  position: relative;
+  height: 15px;
+  width: 10rem;
+  border: 2px solid #f4a261;
+  border-radius: 15px;
+}
+.progress4 .color4{
+  position: absolute;
+  background-color: green;
+  width: 0px;
+  height: 15px;
+  border-radius: 15px;
+  animation: progres4 3s infinite linear;    
+}
+
+.progress5{
+  position: relative;
+  height: 15px;
+  width: 10rem;
+  border: 2px solid #f4a261;
+  border-radius: 15px;
+}
+.progress5 .color5{
+  position: absolute;
+  background-color: rgb(112, 176, 201);
+  width: 0px;
+  height: 15px;
+  border-radius: 15px;
+  animation: progres5 3s infinite linear;    
+}
+
+@keyframes progres{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 25%;
+  }
+  50%{
+      width: 59%;
+  }
+  75%{
+      width: 75%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes progres2{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 25%;
+  }
+  50%{
+      width: 50%;
+  }
+  75%{
+      width: 75%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes progres3{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 25%;
+  }
+  50%{
+      width: 50%;
+  }
+  75%{
+      width: 75%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+@keyframes progres4{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 25%;
+  }
+  50%{
+      width: 50%;
+  }
+  75%{
+      width: 75%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+@keyframes progres5{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 25%;
+  }
+  50%{
+      width: 50%;
+  }
+  75%{
+      width: 60%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+
+
+/* ===================================글자입력================================ */

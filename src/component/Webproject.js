@@ -11,26 +11,26 @@ const Webproject = () => {
             <div className="container" style={{paddingTop:'30px'}}>
                 {/* React프로젝트 */}
                 <div className="item" style={{ margin: 'auto' }}>
-                    <img src={teamproject2} style={{ height: '300px', width: '500px', border: '1px solid black' }} />
+                    <img src={teamproject2} style={{ height: '300px', width: '500px', border: '2px solid black',borderRadius:'15px' }} />
                 </div>
 
                 <div className="item" style={{ marginRight: '20rem' }}>
-                    <div className="title">헬씈(HealthK)</div>
+                    <div className="title">🌳헬씈(HealthK)</div>
                     <div className="people">제작인원: 3명</div>
                     <div className="date">제작기간: 2021.04.22~2021.05.06(15일)</div>
                     <div className="whatis">프로젝트 설명: 회원가입시 키와 몸무게를 입력하면 맞춤 식단과 운동영상을 추천해주는 건강커뮤니티 사이트</div>
                     <div className="uselang">사용언어: React, nodejs, javascript</div>
-                    <div className="ido">나의 구현사항</div>
+                    <div className="ido">🌳나의 구현사항</div>
                     <div className="idocon">
-                        회원가입, 로그인
+                        <strong>회원가입, 로그인</strong>
                         <br />
                         yup라이브러리를 통한 검증
                         <br />
-                        운동인증게시판
+                        <strong>운동인증게시판</strong>
                         <br />
                         react-file-base64사용 사진업로드,글 작성, 수정, 삭제, 좋아요 기능
                         <br />
-                        메인페이지
+                        <strong>메인페이지</strong>
                         <br />
                         키와 몸무게를 활용하여 BMI를 계산하고 그에 따른 운동영상을 추천
                         <br />
@@ -53,16 +53,16 @@ const Webproject = () => {
 
                 {/* nodejs개인프로젝트 */}
                 <div className="item" style={{ margin: 'auto' }}>
-                    <img src={soloproject2} style={{ height: '300px', width: '500px', border: '1px solid black' }} />
+                    <img src={soloproject2} style={{ height: '300px', width: '500px',border: '2px solid black',borderRadius:'15px' }} />
                 </div>
 
                 <div className="item" style={{ marginRight: '20rem' }}>
-                    <div className="title">BGfinance</div>
+                    <div className="title">🌳BGfinance</div>
                     <div className="people">제작인원: 1명</div>
                     <div className="date">제작기간: 2021.03.08~2021.03.24(17일)</div>
                     <div className="whatis">프로젝트 설명: BGfinance라는 가상의 투자자문업체를 만들고 그곳에서 운영하는 커뮤니티 사이트를 생성</div>
                     <div className="uselang">사용언어: html, css, javascript, jquery ,nodejs</div>
-                    <div className="ido">나의 구현사항</div>
+                    <div className="ido">🌳나의 구현사항</div>
                     <div className="idocon">
                         회원가입, 로그인
                         <br />
@@ -93,16 +93,16 @@ const Webproject = () => {
 
                 {/* nodejs팀프로젝트 */}
                 <div className="item" style={{ margin: 'auto' }}>
-                    <img src={teamproject1} style={{ height: '300px', width: '500px', border: '1px solid black' }} />
+                    <img src={teamproject1} style={{ height: '300px', width: '500px',border: '2px solid black',borderRadius:'15px' }} />
                 </div>
 
                 <div className="item" style={{ marginRight: '20rem' }}>
-                    <div className="title">CDKPL</div>
-                    <div className="people">제작인원: 3명</div>
+                    <div className="title">🌳CDKPL</div>
+                    <div className="people">제작인원: 3명(팀장)</div>
                     <div className="date">제작기간: 2021.01.27~2021.02.09(14일)</div>
                     <div className="whatis">프로젝트 설명: CDKPL이라는 가상의 브랜드그룹을 만들고 그룹사이트를 만듬</div>
                     <div className="uselang">사용언어: html, css, nodejs, javascript</div>
-                    <div className="ido">나의 구현사항</div>
+                    <div className="ido">🌳나의 구현사항</div>
                     <div className="idocon">
                     html,css,javascript,jquery를 이용하여 정적페이지 생성.
                         <br />
@@ -128,16 +128,16 @@ const Webproject = () => {
                 </div>
                 {/* html개인 프로젝트 */}
                 <div className="item" style={{ margin: 'auto' }}>
-                    <img src={soloproject1} style={{ height: '300px', width: '500px', border: '1px solid black' }} />
+                    <img src={soloproject1} style={{ height: '300px', width: '500px', border: '2px solid black',borderRadius:'15px'  }} />
                 </div>
 
                 <div className="item" style={{ marginRight: '20rem' }}>
-                    <div className="title">airbnb클론</div>
+                    <div className="title">🌳airbnb클론</div>
                     <div className="people">제작인원: 1명</div>
                     <div className="date">제작기간: 2021.01.13~2021.01.19(7일)</div>
                     <div className="whatis">프로젝트 설명: airbnb클론 사이트 만들기</div>
                     <div className="uselang">사용언어: html, css, javascript</div>
-                    <div className="ido">나의 구현사항</div>
+                    <div className="ido">🌳나의 구현사항</div>
                     <div className="idocon">
                     html,css,JS,JQuery를 이용하여 페이지 제작.
                         <br />

@@ -7,7 +7,7 @@
   
   .sloganbox {
     background-color: #1b1b1d;
-    min-height: 80vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -50,38 +50,3 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* ====================================================================== */
-  /* //////////////////////이미지사진/////////////////////// */
-
-.profileImg{
-    width:150px;
-    height:150px;
-    border-radius: 70%;
-    overflow: hidden;
-    border: 1px solid black;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    display: inline-block;
-  }
-
-  .profileImg-Img{
-    width: 120%;
-    height:120%;
-    object-fit:cover;
-    
-}
-
-  .profileArea{
-      text-align: center;
-  }
-  .detailcontent{
-      display: inline-block;
-  }
-
-  /* ===================언어 선호도============= */
-
-
-
-/* ===================================글자입력================================ */

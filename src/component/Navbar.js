@@ -11,14 +11,17 @@ const Navbar = () => {
                     <div className="container-fluid">
                         <ul className="nav navbar-nav">
                             <li>
+                                <Link to="/portfolio">HOME</Link>
+                            </li>
+                            <li>
                                 <Link to="/main">INTRO</Link>
                             </li>
                             <li>
                                 <Link to="/Web">WEB PROJECT</Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/Block">BLOCKCHAIN PROJECT</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </nav>

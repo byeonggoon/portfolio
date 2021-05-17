@@ -16,4 +16,32 @@
   font-size: 20px;
   font-weight: bold;
   font-family: ROKABold;
+  margin-top: 20px;
+}
+.idocon{
+  margin-bottom: 20px;
+  font-family:Cafe24Oneprettynight ;
+  font-weight: bold;
+  font-size: 20px;
+}
+.subcon{
+  margin-left: 60px;
+}
+.titlecon{
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.upcon{
+  margin-left: 40px;
+}
+
+.upcon{
+  font-family:Cafe24Oneprettynight ;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upcondetail{
+  margin-bottom: 10px;
 }

@@ -7,6 +7,7 @@ import "./introPage.css"
 const IntroPage = () => {
 
     return (
+        <Link to='/home' style={{textDecoration:'none'}}>
         <div
         style={{
             display: 'flex',
@@ -16,8 +17,9 @@ const IntroPage = () => {
             height: '100vh',
             backgroundColor: '#ece5da'
         }}>
-         <Link to='/main' style={{textDecoration:'none'}}><h3><span>welcome to<br/> BYEONGGOON's<br/> portfolio</span></h3></Link>
+        <h3><span>welcome to<br/> BYEONGGOON's<br/> portfolio</span></h3>
         </div>
+        </Link>
     )
 }
 

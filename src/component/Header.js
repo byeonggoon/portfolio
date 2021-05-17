@@ -18,7 +18,7 @@ const Head = styled.div`
 const Header = () => {
     return (
         <Head>
-            <Link to='/main'  style={{textDecoration:'none', color:'black'}}>BYEONGGOON PORTFOLIO</Link>  
+            <Link to='/portfolio'  style={{textDecoration:'none', color:'black'}}>BYEONGGOON PORTFOLIO</Link>  
         </Head>
     )
 }

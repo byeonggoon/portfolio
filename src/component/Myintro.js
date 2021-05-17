@@ -9,7 +9,8 @@ import CSS from '../images/css.png'
 import JS from '../images/JS.png'
 import NODEJS from '../images/nodejs.png'
 import REACT from '../images/react.png'
-
+import MONGODB from '../images/mogodb.png'
+import MYSQL from '../images/mysql.png'
 
 const Myintro = () => {
 
@@ -17,16 +18,16 @@ const Myintro = () => {
     return (
         <div>
             {/*============================= 슬로건===========================*/}
-            <div className="sloganbox">
+            {/* <div className="sloganbox">
                 <div id="slogan">
                     maybe slow but <br />
                     never don't stop coding
                 </div>
-            </div>
+            </div> */}
 
             {/*==============================자기소개============================*/}
             <Slide bottom>
-                <div className="profileArea" style={{ textAlign: 'center', justifyContent: 'center', paddingBottom:'3rem'}}>
+                <div className="profileArea" style={{ textAlign: 'center', justifyContent: 'center', paddingBottom:'3rem', paddingTop:'3rem'}}>
                     <div className="profileImg" style={{ marginRight: '15px' }}>
                         <img src={MyImg} alt="profileImg" className="profileImg-Img" />
                     </div>
@@ -41,54 +42,42 @@ const Myintro = () => {
                     </div>
                     <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>동국대학교 졸업(2012.3~2019.2)</div>
                     <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>경일게임아카데미 블록체인기반 응용SW개발 수료(2020.12~2021.10) </div>
-                    <div style={{marginTop:'1rem',fontFamily:'Cafe24Oneprettynight', fontSize:'1.5rem'}} >배움을 끊임 없이. <br/>느릴 수 있습니다. 하지만 멈추지 않는 개발자가 되겠습니다. </div>
+                    <div style={{marginTop:'1rem',fontFamily:'Cafe24Oneprettynight', fontSize:'1.5rem'}} >배움을 끊임 없이. <br/> 멈추지 않는 개발자가 되겠습니다. </div>
                 </div>
             </Slide>
 
             {/*==============================사용언어============================*/}
-            <div style={{textAlign:'center',fontSize: '35px', fontFamily: 'ROKABold', marginBottom:'25px' }}> 프로그래밍 언어 숙련도</div>
+            <div style={{textAlign:'center',fontSize: '35px', fontFamily: 'ROKABold', marginBottom:'25px' }}>사용 언어 </div>
 
             <div className="langbox1" style={{display:'flex',justifyContent:'space-around',padding:'1rem 200px'}}>
                 <div style={{  textAlign: 'center' }}>
                     <img src={HTML} style={{ height: '100px', width: '100px',verticalAlign:'middle'}} /> 
-                     <span style={{fontSize:'20px', fontWeight:'bold'}} >90%</span>
-                    <div className="progress1" style={{marginTop:'15px'}}>
-                        <div className="color1"></div>
-                    </div>
                 </div>
 
                 <div style={{ textAlign: 'center' }}>
                     <img src={CSS} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
-                    <span  style={{fontSize:'20px', fontWeight:'bold'}}  >80%</span>
-                    <div className="progress2" style={{marginTop:'15px'}}>
-                        <div className="color2"></div>
-                    </div>
                 </div>
 
                 <div style={{  textAlign: 'center' }}>
                     <img src={JS} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} /> 
-                    <span  style={{fontSize:'20px', fontWeight:'bold'}} >75%</span>
-                    <div className="progress3" style={{marginTop:'15px'}}>
-                        <div className="color3"></div>
-                    </div>
+                </div>
+
+                <div style={{  textAlign: 'center' }}>
+                    <img src={NODEJS} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
                 </div>
             </div>
 
             <div className="langbox2" style={{display:'flex',justifyContent:'space-around',padding:'2rem 250px'}}>
-                <div style={{  textAlign: 'center' }}>
-                    <img src={NODEJS} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
-                    <span style={{fontSize:'20px', fontWeight:'bold'}}  >75%</span>
-                    <div className="progress4" style={{marginTop:'15px'}}>
-                        <div className="color4"></div>
-                    </div>
+            <div style={{  textAlign: 'center' }}>
+                    <img src={REACT} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
                 </div>
 
                 <div style={{  textAlign: 'center' }}>
-                    <img src={REACT} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
-                    <span  style={{fontSize:'20px', fontWeight:'bold'}} >70%</span>
-                    <div className="progress5" style={{marginTop:'15px'}}>
-                        <div className="color5"></div>
-                    </div>
+                    <img src={MONGODB} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
+                </div>
+
+                <div style={{  textAlign: 'center' }}>
+                    <img src={MYSQL} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
                 </div>
             </div>
 

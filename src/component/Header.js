@@ -2,6 +2,7 @@ import React from 'react'
 
 import{withRouter, Link} from 'react-router-dom'
 import styled from 'styled-components'
+import Bounce from 'react-reveal/Bounce';
 
 const Head = styled.div`
     text-align:center;
@@ -18,7 +19,7 @@ const Head = styled.div`
 const Header = () => {
     return (
         <Head>
-            <Link to='/portfolio'  style={{textDecoration:'none', color:'black'}}>BYEONGGOON PORTFOLIO</Link>  
+            <Link to='/portfolio'  style={{textDecoration:'none', color:'black'}}><Bounce>BYEONGGOON PORTFOLIO</Bounce></Link>  
         </Head>
     )
 }

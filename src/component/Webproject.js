@@ -26,16 +26,17 @@ const Webproject = () => {
                         <div className="upcondetail">제작인원: 3명</div>
                         <div className="upcondetail">제작기간: 2021.04.22~2021.05.06(15일)</div>
                         <div className="upcondetail">프로젝트 설명: 회원가입시 키와 몸무게를 입력하면 맞춤 식단과 운동영상을 추천해주는 건강커뮤니티 사이트</div>
-                        <div className="upcondetail">사용언어: React, nodejs, javascript</div>
+                        <div className="upcondetail">사용언어: React, nodejs, javascript, Mysql, MongoDB</div>
                     </div>
 
                     <div className="ido">🌳나의 구현사항</div>
 
                     <div className="idocon">
                         <div className="titlecon">✔회원가입, 로그인</div>
-                        <div className="subcon">◾ yup라이브러리를 통한 검증</div>
+                        <div className="subcon">◾ Formik&yup라이브러리를 통한 검증</div>
                         <div className="titlecon">✔운동인증게시판 </div>
-                        <div className="subcon">◾ react-file-base64사용 사진업로드,글 작성, 수정, 삭제, 좋아요 기능</div>
+                        <div className="subcon">◾ react-file-base64사용 사진업로드</div>
+                        <div className="subcon">◾ REST API, MongoDB, MySql을 이용하여 글 작성, 수정, 삭제 및 좋아요 구현</div>
                         <div className="titlecon">✔메인페이지</div>
                         <div className="subcon">◾ 키와 몸무게를 활용하여 BMI를 계산하고 그에 따른 운동영상을 추천</div>
                         <div className="subcon">◾ 시간대에 따라서 조건을 설정하여 아침, 점심, 저녁메뉴 추천</div>

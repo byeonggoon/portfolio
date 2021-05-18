@@ -7,6 +7,7 @@
   
   .sloganbox {
     background-color: #1b1b1d;
+    /* background-color: white; */
     height: 80vh;
     display: flex;
     align-items: center;
@@ -14,9 +15,9 @@
     margin-bottom: 15px;
   }
   
-  .sloganbox:after {
+  /* .sloganbox:after {
       content: '';
-      /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/texture.svg); */
+      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/texture.svg);
       position: fixed;
       width: 100%;
       height: 100%;
@@ -40,13 +41,131 @@
     line-height: 0.8;
     margin: 0;
     text-align: left;
-  }
-  
-  /* #slogan > * {
-    color: hsl(347, 7%, 29%);
-    font-variation-settings: 'wght' var(--weight);
   } */
+  
+ 
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
+/* ////////////////////////////////////// */
+
+/* #slogan{
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 1.0s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+} */
+
+/* ////////////////타이핑슬로건////////////////////// */
+.css-typing div {
+  border-right: .15em solid orange;
+  color: #F0020A;
+  /* color: white; */
+  font-family:'Marvin Visions Variable';
+  font-size: 6.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing div:nth-child(1) {
+  width: 7.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing div:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  /* 100% {
+    border: none;
+  } */
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}

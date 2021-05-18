@@ -33,6 +33,7 @@ const Myintro = () => {
                     </div>
                     <div className="detailcontent">
                         <div style={{ fontSize: '35px', fontFamily: 'ROKABold' }}>임병군</div>
+                        {/* <div  style={{fontSize:'1.0rem',fontWeight:'bold',marginTop:'15px'}}>About more</div> */}
                         <a href="https://blog.naver.com/qudrnsektzja" target='_blank'>
                             <img src={NaverBlog} style={{ height: '40px', width: '40px', marginBottom: '25px' }} />
                         </a>

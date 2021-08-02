@@ -17,11 +17,11 @@ const Navbar = () => {
                                 <Link to="/main">INTRO</Link>
                             </li>
                             <li>
-                                <Link to="/Web">WEB PROJECT</Link>
+                                <Link to="/Web">WEB_PROJECT</Link>
                             </li>
-                            {/* <li>
-                                <Link to="/Block">BLOCKCHAIN PROJECT</Link>
-                            </li> */}
+                            <li>
+                                <Link to="/Block">BLOCKCHAIN_PROJECT</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>

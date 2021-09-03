@@ -1,8 +1,11 @@
 import React from 'react'
 
-import blockproject1 from '../images/blockproject1.jpg'
-import blockproject2 from '../images/blockproject2.jpg'
+
+import blockproject3 from '../images/blockproject3.jpg'
+import blockprojectgif from '../images/stellargif.gif'
+import blockproject2gif from '../images/U1Lgif.gif'
 import './Webproject.css'
+import './slider2.css'
 import Slide from 'react-reveal/Slide';
 
 const Webproject = () => {
@@ -10,11 +13,9 @@ const Webproject = () => {
         <div>
             <div className="container" style={{ paddingTop: '30px' }}>
                 {/* 블록체인 팀프로젝트1 */}
-
                 <Slide bottom>
-                <div className="item" style={{ marginLeft: '200px', marginRight:'100px' }}>
-                    <img src={blockproject1} style={{ height: '300px', width: '500px', border: '2px solid black', borderRadius: '15px' }} />
-                    <img src={blockproject2} style={{ height: '300px', width: '500px', border: '2px solid black', borderRadius: '15px' }} />
+                <div className="item" style={{margin:'auto' }}>
+                    <img src={blockprojectgif} style={{ height: '300px', width: '500px', border: '2px solid black', borderRadius: '15px' }} />
                 </div>
                 </Slide>
 
@@ -39,12 +40,57 @@ const Webproject = () => {
                         <div className="subcon">◾ 자신의 지분이 있는 나무의 위치를 카카오맵API를 통해 출력</div>
                     </div>
 
-                    <a href="#"  style={{ textDecoration: 'none', color: 'black' }}>
+                    <a href="https://github.com/byeonggoon/blockteam1-1"   target="_blank"style={{ textDecoration: 'none', color: 'black' }}>
                         <div style={{ fontWeight: 'bold', border: '2px solid black', borderRadius: '5px', padding: '10px', margin: '10px', width: '140px', textAlign: 'center', float: 'left' }}>
-                            GITHUB[예정]
+                            GITHUB1
+                        </div>
+                    </a>
+                    <a href="https://github.com/byeonggoon/blockteam1-2"  target="_blank"  style={{ textDecoration: 'none', color: 'black' }}>
+                        <div style={{ fontWeight: 'bold', border: '2px solid black', borderRadius: '5px', padding: '10px', margin: '10px', width: '140px', textAlign: 'center', float: 'left' }}>
+                            GITHUB2
                         </div>
                     </a>
                     <a href="https://blog.naver.com/qudrnsektzja/222390655694" target="_blank" style={{ textDecoration: 'none', color: 'black' }}>
+                        <div style={{ fontWeight: 'bold', border: '2px solid black', borderRadius: '5px', padding: '10px', margin: '10px', width: '70px', textAlign: 'center', float: 'left' }}>
+                            BLOG
+                        </div>
+                    </a>
+                </div>
+                </Slide>
+
+                {/* 블록체인 팀프로젝트2 */}
+                <Slide bottom>
+                <div className="item" style={{ margin:'auto' }}>
+                    <img src={blockproject2gif} style={{ height: '300px', width: '500px', border: '2px solid black', borderRadius: '15px' }} />
+                </div>
+                </Slide>
+
+                <Slide bottom>
+                <div className="item" style={{ margin: 'auto 20rem auto 0' }}>
+                    <div className="title">🌳U1L</div>
+
+                    <div className="upcon">
+                        <div className="upcondetail">제작인원: 4명</div>
+                        <div className="upcondetail">제작기간: 2021.08.15~2021.08.31(16일)</div>
+                        <div className="upcondetail">프로젝트 설명: 세상에 하나뿐인 NFT를 거래하는 거래소 U1L을  컨셉으로 제작</div>
+                        <div className="upcondetail">사용언어: Solidity, React</div>
+                    </div>
+
+                    <div className="ido">🌳나의 구현사항</div>
+
+                    <div className="idocon">
+                        <div className="titlecon">✔NFT</div>
+                        <div className="subcon">◾NFT 발행하기 </div>
+                        <div className="subcon">◾발행한 NFT 삭제하기</div>
+                        <div className="subcon">◾NFT 구매하기</div>
+                    </div>
+
+                    <a href="https://github.com/byeonggoon/blockteam2" target="_blank"   style={{ textDecoration: 'none', color: 'black' }}>
+                        <div style={{ fontWeight: 'bold', border: '2px solid black', borderRadius: '5px', padding: '10px', margin: '10px', width: '140px', textAlign: 'center', float: 'left' }}>
+                            GITHUB
+                        </div>
+                    </a>
+                    <a href="https://blog.naver.com/qudrnsektzja/222475459955" target="_blank" style={{ textDecoration: 'none', color: 'black' }}>
                         <div style={{ fontWeight: 'bold', border: '2px solid black', borderRadius: '5px', padding: '10px', margin: '10px', width: '70px', textAlign: 'center', float: 'left' }}>
                             BLOG
                         </div>

@@ -11,6 +11,7 @@ import NODEJS from '../images/nodejs.png'
 import REACT from '../images/react.png'
 import MONGODB from '../images/mogodb.png'
 import MYSQL from '../images/mysql.png'
+import SOLIDITY from '../images/solidity.png'
 
 const Myintro = () => {
 
@@ -81,6 +82,10 @@ const Myintro = () => {
 
                 <div style={{  textAlign: 'center' }}>
                     <img src={MYSQL} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
+                </div>
+
+                <div style={{  textAlign: 'center' }}>
+                    <img src={SOLIDITY} style={{ height: '100px', width: '100px',verticalAlign:'middle' }} />
                 </div>
             </div>
 

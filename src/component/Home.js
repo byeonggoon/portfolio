@@ -9,11 +9,6 @@ const Myintro = () => {
         <div>
             {/*============================= 슬로건===========================*/}
             <div className="sloganbox">
-                {/* <div id="slogan">
-                    <div>maybe slow but</div>
-                    <div>never don't stop coding</div>
-                </div> */}
-
                 <div class="css-typing">
                     <div>maybe slow but</div>
                     <div>never don't stop coding</div>

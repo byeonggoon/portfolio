@@ -5,14 +5,7 @@
     src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/MarvinVisionsTrial-Variable.ttf");
   }
   
-  .sloganbox {
-    background-color: #1b1b1d;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 15px;
-  }
+  
   
   .sloganbox:after {
       content: '';

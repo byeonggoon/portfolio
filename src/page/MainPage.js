@@ -6,10 +6,10 @@ import Myintro from '../component/Myintro'
 import Navbar from '../component/Navbar'
 const MainPage = () => {
     return (
-        <div>
+        <div >
             <Header/>
             <Navbar/>
-              <Myintro/>
+            <Myintro/>
         </div>
     )
 }

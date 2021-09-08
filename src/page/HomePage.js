@@ -5,8 +5,8 @@ import Home from '../component/Home'
 import{withRouter, Link} from 'react-router-dom'
 const HomePage = () => {
     return (
-        <div>
-              <Header/>
+        <div style={{width:"100vw", height:"100vh", overflow:"hidden"}}>
+            <Header/>
             <Navbar/>
             <Home/>
         </div>

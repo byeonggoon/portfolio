@@ -42,7 +42,7 @@ const Myintro = () => {
                             <img src={Gamil} style={{ height: '40px', width: '40px', marginBottom: '25px' }} />
                         </a>
                     </div>
-                    <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>동국대학교 졸업(2012.3~2019.2)</div>
+                    <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>동국대학교 경주캠퍼스 졸업(2012.3~2019.2)</div>
                     <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>경일게임아카데미 블록체인기반 응용SW개발 수료(2020.12~2021.10) </div>
                     <div style={{fontSize:'1.5rem', fontFamily: 'ROKABold'}}>서울ICT이노베이션스퀘어 나도 할 수 있다! 하이퍼레저 블록체인 프로젝트 수료(2021.08~2021.09) </div>
                     
